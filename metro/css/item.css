@@ -1,0 +1,165 @@
+body { 
+    background: #CCDEFF;
+    }
+    .container{
+      max-width: 1350px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+	padding: 0px 30px;
+
+   }
+
+    .grid {     
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 115px auto 115px ;
+      grid-gap: 22px;   
+      margin: 30px;
+      padding: 0;
+    }
+   
+  .pageHeader { 
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background: #8BAAF9;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+.logo{
+  width: 228px;
+  height: 35px;
+  margin-left: 30px;
+}
+.content{
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    justify-content: space-between;
+}
+.image{
+    width: 360px;
+height: 557px;
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}  
+.text{
+
+height: 271px;
+background-color: white;
+
+padding: 20px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+.price_div{
+    width: 480px;
+height: 173px;
+background-color: white;
+margin-top: 30px;
+padding: 20px;
+
+}
+.item_title{
+    margin: 0;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+} 
+.price{
+    margin: 0;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 21px;
+}
+.buy_btn{
+    width:140px;
+    height: 45px;
+    background: #CCDEFF;
+    color: #000000;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 20px;
+    }
+    .buy_btn:hover{
+       
+        color: #000000;
+        border: 1px solid #000000;
+    }
+    .buy_btn:active{
+        box-shadow: 0px 0px 9px 9px rgba(178, 181, 255, 0.3);
+    }
+  .footer{
+    grid-column: 1/5;
+    grid-row: 3/3;
+    background: #8BAAF9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+padding: 30px;
+color: #000000;
+  }
+
+
+
+img[src="/images/facebook.png"]:hover
+   {
+    filter: opacity(50%);
+   }
+   img[src="/images/instagram.png"]:hover
+   {
+    filter: opacity(50%);
+   }
+   img[src="/images/telegram.png"]:hover
+   {
+    filter: opacity(50%);
+   }
+   img[src="/images/facebook.png"]
+   {
+    width: 50px;
+   }
+   img[src="/images/instagram.png"]
+   {
+    width: 50px;
+   }
+   img[src="/images/telegram.png"]
+   {
+    width: 50px;
+   }
+  p{
+    width: 230px;
+  }
+  /*  #pageFooter {
+    grid-area: footer;
+  }
+  #mainArticle { 
+    grid-area: article;      
+    }
+  #mainNav { 
+    grid-area: nav; 
+    }
+  #siteAds { 
+    grid-area: ads; 
+    } */
