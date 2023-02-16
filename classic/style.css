@@ -1,0 +1,395 @@
+/* body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+} */
+
+#main_part {
+  width: 100%;
+  padding: 0;
+}
+::-webkit-scrollbar{
+width:0;
+}
+#header {
+  width: 1490px;
+  height: 100px;
+  background: rgba(0, 42, 122, 0.72);
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.logo{
+    position: absolute;
+    width: 207.47px;
+    height: 33px;
+    left: 83px;
+    top: 37px;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.menu{
+    height: 200px;
+    
+}
+.menu_li{
+position: relative;
+width: 84.02px;
+height: 20.91px;
+list-style-type: none;
+margin-top: 20px;
+margin-bottom: 20px;
+left: 40px;
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+} 
+.menu_li a{
+  color: #000000;
+}
+.menu_li:hover{
+    color: #1142a5;
+}
+
+.news{
+    position: relative;
+    top: 43px;
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 40px;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+.header_title{
+    position: absolute;
+width: 335px;
+height: 29px;
+left: 602px;
+top: 10px;
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header_info{
+    position: absolute;
+width: 179px;
+height: 16px;
+top: 15px;
+left: 1227px;
+
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.container {
+  top: 0;
+  width: 1330px;
+  height: 1452px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background: #e2e6f0;
+}
+#left_column {
+  width: 278px;
+  height: 1452px;
+
+  float: left;
+}
+
+#content {
+  margin-left: 278px;
+  display: flow-root;
+  height: auto;
+  margin-bottom: 30px;
+  width: 1050px;
+}
+.baner {
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1050px;
+  height: 380px;
+}
+
+.baner_txt {
+  position: absolute;
+
+  height: 88px;
+  width: 783px;
+  left: 133px;
+  top: 117px;
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.white_column {
+  position: absolute;
+  width: 540px;
+  height: 1076px;
+  top: 477px;
+  background: #ffffff;
+}
+
+#title {
+  position: absolute;
+  width: 421.48px;
+  height: 58px;
+
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #47659f;
+}
+
+.title1 {
+  left: 38px;
+  padding-bottom: 23px;
+  top: 6px;
+}
+
+.mc1 {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  left: 38px;
+  top: 108px;
+}
+
+.mc1_txt {
+  position: absolute;
+
+  width: 225px;
+  height: 175px;
+  left: 278px;
+  top: 90px;
+
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #090909;
+}
+
+.mc2 {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  left: 38px;
+  top: 299px;
+}
+
+.mc2_txt {
+  position: absolute;
+  width: 225px;
+  height: 178px;
+  left: 280px;
+  top: 279px;
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #090909;
+}
+
+.more {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 38px;
+  top: 491px;
+
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #47659f;
+}
+a:hover {
+  color: #1142a5;
+}
+
+.title2 {
+  left: 38px;
+  padding-bottom: 23px;
+  top: 515px;
+}
+
+.about1 {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  left: 38px;
+  top: 589px;
+}
+.about2 {
+  position: absolute;
+  width: 218px;
+  left: 280px;
+  top: 589px;
+}
+
+.about_txt {
+  position: absolute;
+
+  width: 232px;
+  height: 175px;
+  left: 38px;
+  top: 760px;
+
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #090909;
+}
+
+.more2 {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 38px;
+  top: 946px;
+
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration-line: underline;
+
+  color: #47659f;
+}
+.more2:hover {
+  color: #1142a5;
+}
+.blue_column{
+    position: absolute;
+    width: 511px;
+    height: 996px;
+    left: 895px;
+    top: 487px; 
+ 
+}
+.title3 {
+    left: 38px;
+    padding-bottom: 23px;
+    top: 6px;
+  }
+
+  .item_img{
+    position: absolute;
+    left: 38px;
+    padding-bottom: 23px;
+    top: 108px;
+  }
+
+  .item_name{
+    position: absolute;
+width: 203.76px;
+height: 122px;
+left: 38px;
+top: 388px;
+
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #47659F;
+  }
+  .item_name:hover{
+    color: #1142a5;
+  }
+  .item_inf{
+    position: absolute;
+width: 203.76px;
+height: 122px;
+left: 38px;
+top: 441px;
+
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #090909;
+
+}
+  
+#footer {
+position: absolute;
+width: 1490px;
+height: 100px;
+background: rgba(0, 42, 122, 0.72);
+margin-left: -10px;
+}
+.footer_menu{
+    list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 550px; /*убираем отступы*/
+  margin-top:38px; /*делаем отступ сверху*/
+ /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+
+.footer_a{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+   
+font-family: 'Tahoma';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+    display: block; 
+    
+
+}
+.li{
+    float:left;
+}
+.up{
+    width: 40px;
+    margin-top: -62px;
+    margin-left: 1344px;
+
+}
