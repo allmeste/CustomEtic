@@ -1,0 +1,151 @@
+.item{
+  margin-left: 70px; 
+  margin-right: 70px;  
+
+}
+.main_image{
+  margin-top: -570px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.img_item{
+    width: 30%;
+    height: auto;
+   
+}
+.photos{
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.price{
+  font-family: 'BrokgauzEfron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 600px;
+}
+.buy_btn{
+  width: 162px;
+  height: 48px;
+font-size: 20px;
+  font-family: 'BrokgauzEfron';
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  background: #543421;
+}
+.buy_btn:hover{
+   
+    color: #F5F5F5;
+    background: #8a6752;
+   
+}
+.buy_btn:active{
+    box-shadow: 0px 0px 9px 9px rgba(178, 181, 255, 0.3);
+}
+.name{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-family: 'BrokgauzEfron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  margin-left: 600px;
+
+  
+  color: #543421;
+
+}
+.item_title{
+
+  font-family: 'BrokgauzEfron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+  margin-left: 600px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  color: #543421;
+}
+.logo1{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+   
+}
+
+
+ @media screen and (max-width:1025px){
+
+.buy_btn{
+    width: 20%;
+}
+p{
+    font-size: 12px;
+}
+
+
+} 
+@media screen and (max-width:768px){
+    .buy_btn{
+        width: 30%;
+    }
+  p{
+    font-size: 10px;
+  }
+  span{
+    font-size: 20px;
+  }
+  .price{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:481px){
+    .item_title{
+        font-size: 15px;
+    }
+  p{
+    font-size: 7px;
+  }
+  .name{
+    font-size: 10px;
+  }
+  .buy_btn{
+    font-size: 10px;
+    height: 25px;
+  }
+   .logo1{
+        width: 100px;
+        margin-left: 40px;
+    }
+    .item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+}
+@media screen and (max-width:391px){
+
+    .logo1{
+        width: 100px;
+    }
+    .item_title{
+        font-size: 12px;
+    }
+   .footer_content{
+    font-size: 5px;
+   }
+    .price{
+        font-size: 15px;
+    }
+}
